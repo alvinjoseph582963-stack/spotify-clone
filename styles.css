@@ -17,9 +17,11 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #121212;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -91,26 +93,30 @@ header {
         display: none;
     }
 
-    .header-desktop{
+    .header-desktop {
         display: flex;
         align-items: center;
         padding: 8px;
         width: 100%;
     }
-    .desktop-logo{
+
+    .desktop-logo {
         display: flex;
         align-items: center;
     }
-    .desktop-logo img{
+
+    .desktop-logo img {
         margin: 20px;
     }
-    .home-search-button{
+
+    .home-search-button {
         display: flex;
         align-items: center;
         min-width: auto;
         width: 100%;
     }
-    .home-button{
+
+    .home-button {
         display: flex;
         align-items: center;
         margin-inline-start: 8px;
@@ -120,12 +126,14 @@ header {
         border-radius: 50%;
         min-block-size: 48px;
     }
-    .search-button{
+
+    .search-button {
         padding-inline: 8px;
         position: relative;
         width: 100%;
     }
-    .search-button button{
+
+    .search-button button {
         display: flex;
         align-items: center;
         background-color: rgb(31, 31, 31);
@@ -134,6 +142,47 @@ header {
         border-radius: 50%;
         min-block-size: 48px;
     }
-    .desktop-logo{
+
+    .nav-bar {
+        display: flex;
+        gap: 8px;
+        justify-content: flex-end;
+        align-items: center;
     }
+
+    .premium-button {
+        font-weight: 700;
+        font-family: s-bold;
+        font-size: 1rem;
+        background-color: transparent;
+        color: rgb(179, 179, 179);
+        padding-block: 8px;
+        border: 0;
+    }
+
+    .line {
+        background: #fff;
+        height: 25px;
+        margin: 16px;
+        width: 1px;
+    }
+
+    .install-button {
+        display: flex;
+        align-items: center;
+        min-block-size: 32px;
+        background-color: transparent;
+    }
+
+    .install-logo {
+        display: flex;
+        position: absolute;
+        border: 0;
+        color: #656565;
+    }
+
+    .install-span {
+        color: rgb(179, 179, 179);
+    }
+
 }
