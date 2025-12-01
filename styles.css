@@ -154,10 +154,8 @@ header {
         font-weight: 700;
         font-family: s-bold;
         font-size: 1rem;
-        background-color: transparent;
         color: rgb(179, 179, 179);
         padding-block: 8px;
-        border: 0;
     }
 
     .line {
@@ -170,19 +168,47 @@ header {
     .install-button {
         display: flex;
         align-items: center;
+        gap: 8px;
         min-block-size: 32px;
+        border: 0;
+        padding: 4px 24px 4px 16px;
         background-color: transparent;
     }
 
-    .install-logo {
-        display: flex;
-        position: absolute;
-        border: 0;
-        color: #656565;
-    }
-
     .install-span {
+        font-family: s-bold;
+        font-size: 14px;
         color: rgb(179, 179, 179);
+        text-wrap: nowrap;
     }
 
+    .sign-login-button {
+        display: flex;
+        padding-block: 4px;
+        font-size: 0.8125rem;
+        position: relative;
+        min-block-size: 32px;
+    }
+
+    .signup-button {  
+        font-family: s-bold;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 4px 16px 4px 8px;
+        text-wrap: nowrap;
+        color: rgb(179, 179, 179);
+        background-color: #000000;
+        border: 0;
+    }
+     .login-button {  
+       font-family: s-bold;
+       font-weight: 700;
+       font-size: 16px;
+        padding:  8px 32px;
+        text-wrap: nowrap;
+        color: #000000;
+        border: 0;
+        border-radius: 50px;
+        min-block-size: 48px;
+    }
 }
