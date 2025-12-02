@@ -116,6 +116,11 @@ header {
         width: 100%;
     }
 
+    .home-search-bar {
+        display: flex;
+        width: 100%;
+    }
+
     .home-button {
         display: flex;
         align-items: center;
@@ -133,7 +138,7 @@ header {
         width: 100%;
     }
 
-    .search-button button {
+    .search-button-icon {
         display: flex;
         align-items: center;
         background-color: rgb(31, 31, 31);
@@ -190,7 +195,7 @@ header {
         min-block-size: 32px;
     }
 
-    .signup-button {  
+    .signup-button {
         font-family: s-bold;
         font-size: 14px;
         font-weight: 700;
@@ -200,15 +205,58 @@ header {
         background-color: #000000;
         border: 0;
     }
-     .login-button {  
-       font-family: s-bold;
-       font-weight: 700;
-       font-size: 16px;
-        padding:  8px 32px;
+
+    .login-button {
+        font-family: s-bold;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 8px 32px;
         text-wrap: nowrap;
         color: #000000;
         border: 0;
         border-radius: 50px;
         min-block-size: 48px;
+    }
+
+    .desktop-input-box {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1069px) {
+    .desktop-input-box {
+        display: flex;
+    }
+
+    .desktop-input-box input {
+        border: 0;
+        background-color: rgb(31, 31, 31)
+    }
+
+    .search-button-icon {
+        border-radius: 50px;
+        padding-block: 6px;
+    }
+
+    .search-button-icon-img {
+        padding-inline-end: 12px;
+    }
+
+    .desktop-input-box input::placeholder {
+        font-family: s-regular;
+        font-size: 16px;
+        font-weight: 400;
+        color: #7c7c7c;
+        text-overflow: ellipsis;
+    }
+
+    .spotify-search-bar-icon {
+        padding-inline: 12px 4px;
+        border-inline-start: 1px solid #b3b3b3;
+    }
+    .home-search-bar{
+        position: relative;
+        left: 509px; 
     }
 }
