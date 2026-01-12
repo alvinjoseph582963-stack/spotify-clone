@@ -66,6 +66,22 @@ header {
 .header-desktop {
   display: none;
 }
+
+.content-wrapper{
+  margin-top: 56px;
+  padding: 0px 16px; 
+}
+.product-section-heading{
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+.product-heading{
+  
+}
+
+
+
+
 @media screen and (min-width: 960px) {
   header {
     height: 64px;
@@ -95,6 +111,7 @@ header {
   }
   .home-search-bar {
     display: flex;
+    gap: 8px;
     width: 100%;
   }
   .home-button {
@@ -108,10 +125,6 @@ header {
     min-block-size: 48px;
   }
   .search-button {
-    padding-inline: 8px;
-    position: relative;
-  }
-  .search-button-icon {
     display: flex;
     align-items: center;
     background-color: rgb(31, 31, 31);
@@ -187,7 +200,8 @@ header {
 @media screen and (min-width: 1069px) {
   .search-button {
     width: 100%;
-    max-width: 474px;
+    max-width: 450px;
+      padding-block: 12px;
   }
   .desktop-input-box {
     display: flex;
@@ -195,9 +209,7 @@ header {
   .desktop-input-box input {
     border: 0;
     background-color: rgb(31, 31, 31);
-  }
-  .search-button-icon {
-    padding-block: 12px;
+    width: 100%;
   }
   .search-button-icon-img {
     padding-inline-end: 12px;
@@ -207,7 +219,6 @@ header {
     font-size: 16px;
     font-weight: 400;
     color: #7c7c7c;
-    text-overflow: ellipsis;
   }
   .spotify-search-bar-icon {
     padding-inline: 12px 4px;
@@ -222,7 +233,7 @@ header {
   .home-search-bar {
     position: absolute;
     justify-content: center;
-    left: 0;
+    left: -4px;
   }
   .nav-bar-buttons-container {
     justify-content: flex-end;
