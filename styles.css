@@ -80,11 +80,11 @@ header {
     padding: 8px;
     width: 100%;
   }
-  .desktop-logo {
+  .spotify-header-icon {
     display: flex;
     align-items: center;
   }
-  .desktop-logo img {
+  .spotify-header-icon img {
     margin: 20px;
   }
   .home-search-button {
