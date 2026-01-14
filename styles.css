@@ -95,6 +95,7 @@ header {
   }
   .home-search-bar {
     display: flex;
+    gap: 8px;
     width: 100%;
   }
   .home-button {
@@ -107,10 +108,7 @@ header {
     border-radius: 50px;
     min-block-size: 48px;
   }
-  .search-button {
-    padding-inline: 8px;
-    position: relative;
-  }
+
   .search-button-icon {
     display: flex;
     align-items: center;
@@ -185,10 +183,6 @@ header {
   }
 }
 @media screen and (min-width: 1069px) {
-  .search-button {
-    width: 100%;
-    max-width: 474px;
-  }
   .desktop-input-box {
     display: flex;
   }
@@ -197,6 +191,8 @@ header {
     background-color: rgb(31, 31, 31);
   }
   .search-button-icon {
+        width: 100%;
+    max-width: 305px;
     padding-block: 12px;
   }
   .search-button-icon-img {
