@@ -59,10 +59,6 @@ header {
   align-items: center;
   margin-inline-start: 16px;
 }
-.three-top-bar-threeline img {
-  width: 24px;
-  height: 24px;
-}
 .header-desktop {
   display: none;
 }
@@ -71,17 +67,27 @@ header {
   margin-top: 56px;
   padding: 0px 16px; 
 }
-.product-section-heading{
+.songs-section-heading{
   padding-top: 24px;
   padding-bottom: 12px;
 }
-.product-heading{
+.songs-heading{
   font-size: 1.25rem;
   font-family: s-title;
   font-weight: 700;
   color: rgb(255, 255, 255);
 }
-
+.song-card-container{
+  padding:8px ;
+  margin-inline-start: 8px;
+}
+.song-card-img{
+min-inline-size: 152px;
+aspect-ratio: 1/1;
+object-fit: cover;
+inline-size: 100%;
+border-radius: 4px;
+}
 
 
 
