@@ -87,7 +87,7 @@ header {
   .spotify-header-icon img {
     margin: 20px;
   }
-  .home-search-button {
+  .nav-bar-container {
     display: flex;
     align-items: center;
     min-width: auto;
@@ -223,7 +223,7 @@ header {
   .nav-bar-buttons-container {
     justify-content: flex-end;
   }
-  .home-search-button {
+  .nav-bar-container {
     justify-content: flex-end;
   }
 }
