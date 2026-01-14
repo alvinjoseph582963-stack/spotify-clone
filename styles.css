@@ -76,8 +76,12 @@ header {
   padding-bottom: 12px;
 }
 .product-heading{
-  
+  font-size: 1.25rem;
+  font-family: s-title;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
 }
+
 
 
 
