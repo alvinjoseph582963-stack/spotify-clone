@@ -1,0 +1,229 @@
+@font-face {
+  font-family: s-regular;
+  src: url(fonts/SpotifyMixUI-Regular-cc3b1de388efa4cbca6c75cebc24585e.woff2);
+}
+@font-face {
+  font-family: s-bold;
+  src: url(fonts/SpotifyMixUI-Bold-4264b799009b1db5c491778b1bc8e5b7.woff2);
+}
+@font-face {
+  font-family: s-title;
+  src: url(fonts/SpotifyMixUITitleVariable-8769ccfde3379b7ebcadd9529b49d0cc.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #121212;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  background-color: #000000;
+  padding-inline: 16px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.header-mobile {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.spotify-logo {
+  display: flex;
+  align-items: center;
+}
+.top-bar-button-container {
+  display: flex;
+}
+.open-button {
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-family: s-bold;
+  font-size: 0.8125rem;
+  border: 0;
+  border-radius: 9999px;
+  min-block-size: 32px;
+  padding-inline: 16px;
+  padding-block: 4px;
+  font-size: 0.8125rem;
+}
+.hamburger {
+  display: flex;
+  align-items: center;
+  margin-inline-start: 16px;
+}
+.three-top-bar-threeline img {
+  width: 24px;
+  height: 24px;
+}
+.header-desktop {
+  display: none;
+}
+@media screen and (min-width: 960px) {
+  header {
+    height: 64px;
+    padding: 0px;
+  }
+  .header-mobile {
+    display: none;
+  }
+  .header-desktop {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+  }
+  .spotify-header-icon {
+    display: flex;
+    align-items: center;
+  }
+  .spotify-header-icon img {
+    margin: 20px;
+  }
+  .nav-bar-container {
+    display: flex;
+    align-items: center;
+    min-width: auto;
+    width: 100%;
+  }
+  .home-search-bar {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+  }
+  .home-button {
+    display: flex;
+    align-items: center;
+    margin-inline-start: 8px;
+    background-color: rgb(31, 31, 31);
+    padding: 12px;
+    border: 0;
+    border-radius: 50px;
+    min-block-size: 48px;
+  }
+
+  .search-button-icon {
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    padding: 12px;
+    border: 0;
+    border-radius: 50px;
+  }
+  .nav-bar-buttons-container {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .premium-button {
+    font-weight: 700;
+    font-family: s-bold;
+    font-size: 1rem;
+    color: rgb(179, 179, 179);
+    padding-block: 8px;
+    background-color: transparent;
+    border: none;
+  }
+  .download-button {
+    padding-right: 16px;
+  }
+  .install-button {
+    display: flex;
+    gap: 8px;
+    border-inline-start: 1px solid #fff;
+    border-block: 0px;
+    border-inline-end: 0px;
+    padding: 2px 24px 3px 36px;
+    background-color: transparent;
+  }
+  .install-span {
+    font-family: s-bold;
+    font-size: 14px;
+    color: rgb(179, 179, 179);
+    text-wrap: nowrap;
+  }
+  .sign-login-buttons-container {
+    display: flex;
+    padding-block: 4px;
+    font-size: 0.8125rem;
+    position: relative;
+    min-block-size: 32px;
+  }
+  .signup-button {
+    font-family: s-bold;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 4px 16px 4px 8px;
+    text-wrap: nowrap;
+    color: rgb(179, 179, 179);
+    background-color: #000000;
+    border: 0;
+  }
+  .login-button {
+    font-family: s-bold;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 32px;
+    text-wrap: nowrap;
+    color: #000000;
+    border: 0;
+    border-radius: 50px;
+    min-block-size: 48px;
+  }
+  .desktop-input-box {
+    display: none;
+  }
+}
+@media screen and (min-width: 1069px) {
+  .desktop-input-box {
+    display: flex;
+  }
+  .desktop-input-box input {
+    border: 0;
+    background-color: rgb(31, 31, 31);
+  }
+  .search-button-icon {
+        width: 100%;
+    max-width: 305px;
+    padding-block: 12px;
+  }
+  .search-button-icon-img {
+    padding-inline-end: 12px;
+  }
+  .desktop-input-box input::placeholder {
+    font-family: s-regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c7c7c;
+    text-overflow: ellipsis;
+  }
+  .spotify-search-bar-icon {
+    padding-inline: 12px 4px;
+    border-inline-start: 1px solid #b3b3b3;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 1723px) {
+  .home-search-bar {
+    position: absolute;
+    justify-content: center;
+    left: 0;
+  }
+  .nav-bar-buttons-container {
+    justify-content: flex-end;
+  }
+  .nav-bar-container {
+    justify-content: flex-end;
+  }
+}
