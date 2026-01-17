@@ -88,10 +88,6 @@ object-fit: cover;
 inline-size: 100%;
 border-radius: 4px;
 }
-
-
-
-
 @media screen and (min-width: 960px) {
   header {
     height: 64px;
