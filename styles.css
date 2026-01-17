@@ -102,14 +102,14 @@ border-radius: 4px;
     padding: 8px;
     width: 100%;
   }
-  .desktop-logo {
+  .spotify-header-icon {
     display: flex;
     align-items: center;
   }
-  .desktop-logo img {
+  .spotify-header-icon img {
     margin: 20px;
   }
-  .home-search-button {
+  .nav-bar-container {
     display: flex;
     align-items: center;
     min-width: auto;
@@ -130,7 +130,8 @@ border-radius: 4px;
     border-radius: 50px;
     min-block-size: 48px;
   }
-  .search-button {
+
+  .search-button-icon {
     display: flex;
     align-items: center;
     background-color: rgb(31, 31, 31);
@@ -204,18 +205,17 @@ border-radius: 4px;
   }
 }
 @media screen and (min-width: 1069px) {
-  .search-button {
-    width: 100%;
-    max-width: 450px;
-      padding-block: 12px;
-  }
   .desktop-input-box {
     display: flex;
   }
   .desktop-input-box input {
     border: 0;
     background-color: rgb(31, 31, 31);
-    width: 100%;
+  }
+  .search-button-icon {
+        width: 100%;
+    max-width: 305px;
+    padding-block: 12px;
   }
   .search-button-icon-img {
     padding-inline-end: 12px;
@@ -244,7 +244,7 @@ border-radius: 4px;
   .nav-bar-buttons-container {
     justify-content: flex-end;
   }
-  .home-search-button {
+  .nav-bar-container {
     justify-content: flex-end;
   }
 }
