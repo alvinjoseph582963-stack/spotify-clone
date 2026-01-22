@@ -67,11 +67,10 @@ header {
   margin-top: 56px;
   padding: 0px 16px; 
 }
-.songs-section-heading{
-  padding-top: 24px;
-  padding-bottom: 12px;
-}
+
 .songs-heading{
+   padding-top: 24px;
+  padding-bottom: 12px;
   font-size: 1.25rem;
   font-family: s-title;
   font-weight: 700;
@@ -239,7 +238,7 @@ border-radius: 4px;
   .home-search-bar {
     position: absolute;
     justify-content: center;
-    left: -4px;
+    left: 4px;
   }
   .nav-bar-buttons-container {
     justify-content: flex-end;
