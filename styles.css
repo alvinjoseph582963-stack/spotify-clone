@@ -59,12 +59,32 @@ header {
   align-items: center;
   margin-inline-start: 16px;
 }
-.three-top-bar-threeline img {
-  width: 24px;
-  height: 24px;
-}
 .header-desktop {
   display: none;
+}
+
+.content-wrapper {
+  margin-top: 56px;
+  padding: 0px 16px;
+}
+.songs-heading {
+  padding-top: 24px;
+  padding-bottom: 12px;
+  font-size: 1.25rem;
+  font-family: s-title;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.song-card-container {
+  padding: 8px;
+  margin-inline-start: 8px;
+}
+.song-card-img {
+  min-inline-size: 152px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  inline-size: 100%;
+  border-radius: 4px;
 }
 @media screen and (min-width: 960px) {
   header {
@@ -191,7 +211,7 @@ header {
     background-color: rgb(31, 31, 31);
   }
   .search-button-icon {
-        width: 100%;
+    width: 100%;
     max-width: 305px;
     padding-block: 12px;
   }
@@ -203,7 +223,6 @@ header {
     font-size: 16px;
     font-weight: 400;
     color: #7c7c7c;
-    text-overflow: ellipsis;
   }
   .spotify-search-bar-icon {
     padding-inline: 12px 4px;
@@ -218,7 +237,7 @@ header {
   .home-search-bar {
     position: absolute;
     justify-content: center;
-    left: 0;
+    left: 4px;
   }
   .nav-bar-buttons-container {
     justify-content: flex-end;
