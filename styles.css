@@ -63,29 +63,28 @@ header {
   display: none;
 }
 
-.content-wrapper{
+.content-wrapper {
   margin-top: 56px;
-  padding: 0px 16px; 
+  padding: 0px 16px;
 }
-
-.songs-heading{
-   padding-top: 24px;
+.songs-heading {
+  padding-top: 24px;
   padding-bottom: 12px;
   font-size: 1.25rem;
   font-family: s-title;
   font-weight: 700;
   color: rgb(255, 255, 255);
 }
-.song-card-container{
-  padding:8px ;
+.song-card-container {
+  padding: 8px;
   margin-inline-start: 8px;
 }
-.song-card-img{
-min-inline-size: 152px;
-aspect-ratio: 1/1;
-object-fit: cover;
-inline-size: 100%;
-border-radius: 4px;
+.song-card-img {
+  min-inline-size: 152px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  inline-size: 100%;
+  border-radius: 4px;
 }
 @media screen and (min-width: 960px) {
   header {
@@ -212,7 +211,7 @@ border-radius: 4px;
     background-color: rgb(31, 31, 31);
   }
   .search-button-icon {
-        width: 100%;
+    width: 100%;
     max-width: 305px;
     padding-block: 12px;
   }
